@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a5fb472d-8831-4644-9291-c1cdeb51d5bd" name="milos@DESKTOP-8NPJ20A 2024-03-11 21:25:14" runUser="DESKTOP-8NPJ20A\milos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-03-11T21:25:14.3396073+02:00" queuing="2024-03-11T21:25:14.3396079+02:00" start="2024-03-11T21:25:04.1307982+02:00" finish="2024-03-11T21:26:46.5313396+02:00" />
+  <TestSettings name="default" id="4f11d78a-004f-40ad-8d5d-a37a3284cc51">
+    <Deployment runDeploymentRoot="milos_DESKTOP-8NPJ20A_2024-03-11_21_25_14" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e0dc1e68-2bbd-4a7f-89c7-99059f16f65b" testId="3fc5535b-de56-6dd8-a130-c6b4e1e29551" testName="LoginSuccessfully(&quot;standard_user&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:06.8706620" startTime="2024-03-11T21:25:14.2723004+02:00" endTime="2024-03-11T21:25:21.1429603+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0dc1e68-2bbd-4a7f-89c7-99059f16f65b" />
+    <UnitTestResult executionId="945c8af8-20db-4f4f-8c09-918ae43a6e0f" testId="3d5bbc93-35c6-ef3d-43dc-0a8543aba260" testName="RemoveMultipeItemsMainPage" computerName="DESKTOP-8NPJ20A" duration="00:00:01.0423360" startTime="2024-03-11T21:26:32.5464751+02:00" endTime="2024-03-11T21:26:33.5888087+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="945c8af8-20db-4f4f-8c09-918ae43a6e0f" />
+    <UnitTestResult executionId="3d87d5e5-6fe5-4e39-a144-7343cc1a37e8" testId="efb19887-118f-1388-07df-47ad278ca687" testName="LoginSuccessfully(&quot;error_user&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:06.5026339" startTime="2024-03-11T21:25:27.8128624+02:00" endTime="2024-03-11T21:25:34.3154954+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d87d5e5-6fe5-4e39-a144-7343cc1a37e8" />
+    <UnitTestResult executionId="e13cf84f-1119-4a51-a67e-ee5ea4cc7dd5" testId="21c945b7-bb77-a218-327c-38c0495ecde8" testName="LeaveEmptyFieldsAndVerifyError(&quot;Walter&quot;,&quot;&quot;,&quot;12345&quot;,&quot;Error: Last Name is required&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:04.6567940" startTime="2024-03-11T21:26:41.4425352+02:00" endTime="2024-03-11T21:26:46.0993286+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e13cf84f-1119-4a51-a67e-ee5ea4cc7dd5" />
+    <UnitTestResult executionId="c365e4ee-875a-4f6b-9802-83dc1b0588f5" testId="49459291-6903-b197-6cf1-d0b346f6372f" testName="AddMultipleItems" computerName="DESKTOP-8NPJ20A" duration="00:00:01.4440400" startTime="2024-03-11T21:26:19.8606679+02:00" endTime="2024-03-11T21:26:21.3047078+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c365e4ee-875a-4f6b-9802-83dc1b0588f5" />
+    <UnitTestResult executionId="47814d13-b8be-4b6b-a161-7b419cfcbebe" testId="2ee63ba8-a06e-b946-780a-eba7bb4a356c" testName="Logout" computerName="DESKTOP-8NPJ20A" duration="00:00:09.9568619" startTime="2024-03-11T21:26:06.3294886+02:00" endTime="2024-03-11T21:26:16.2863481+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47814d13-b8be-4b6b-a161-7b419cfcbebe" />
+    <UnitTestResult executionId="c7c27810-2806-403e-8e9a-915e5587c5aa" testId="1cbad24b-34b0-7bfe-77b5-b73d55095afd" testName="LoginUnsuccessfully(&quot;locked_out_user&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Sorry, this user has been locked out.&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:03.1169180" startTime="2024-03-11T21:26:03.2121586+02:00" endTime="2024-03-11T21:26:06.3290760+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7c27810-2806-403e-8e9a-915e5587c5aa" />
+    <UnitTestResult executionId="acf83946-e237-48b9-9c3e-a70a9d9fec7c" testId="229eb894-1fd2-cf91-35d6-57460b1286b7" testName="CancelCheckoutAndVerifyPage" computerName="DESKTOP-8NPJ20A" duration="00:00:05.2607050" startTime="2024-03-11T21:26:19.8369400+02:00" endTime="2024-03-11T21:26:25.0976448+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acf83946-e237-48b9-9c3e-a70a9d9fec7c" />
+    <UnitTestResult executionId="2194b687-442c-4e69-85e2-6b5b5643b4c9" testId="d06a632a-7457-3705-0221-f4d72a94fbad" testName="CheckIfTotalPriceIsCorrect" computerName="DESKTOP-8NPJ20A" duration="00:00:02.0265130" startTime="2024-03-11T21:26:25.0977014+02:00" endTime="2024-03-11T21:26:27.1242139+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2194b687-442c-4e69-85e2-6b5b5643b4c9" />
+    <UnitTestResult executionId="12ef0b7d-eabf-423a-9274-200fef9b37c8" testId="397619a7-2f0f-549b-d580-e2d507be922d" testName="ContinueShopping" computerName="DESKTOP-8NPJ20A" duration="00:00:06.8869820" startTime="2024-03-11T21:26:21.3047819+02:00" endTime="2024-03-11T21:26:28.1917639+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12ef0b7d-eabf-423a-9274-200fef9b37c8" />
+    <UnitTestResult executionId="e6d8e9b1-6e75-40d2-9a32-05166b81b652" testId="4b8997a3-421c-9a4c-d16d-34067e79b368" testName="LoginUnsuccessfully(&quot;unexisting_user&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Username and password do not match any user in this service&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:03.5448670" startTime="2024-03-11T21:25:52.7577287+02:00" endTime="2024-03-11T21:25:56.3025956+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6d8e9b1-6e75-40d2-9a32-05166b81b652" />
+    <UnitTestResult executionId="13bd7ea8-66bf-4193-a5a1-443cad0ab4b2" testId="e52df099-5ca5-0bdb-aa94-502735479efb" testName="RemoveItemsFromCart" computerName="DESKTOP-8NPJ20A" duration="00:00:04.3545770" startTime="2024-03-11T21:26:28.1918404+02:00" endTime="2024-03-11T21:26:32.5464170+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13bd7ea8-66bf-4193-a5a1-443cad0ab4b2" />
+    <UnitTestResult executionId="9a2c6929-6c10-4ae5-aee9-a2bd7f41d536" testId="429808e9-566c-b910-9fc3-b57407d15a54" testName="LeaveEmptyFieldsAndVerifyError(&quot;Walter&quot;,&quot;White&quot;,&quot;&quot;,&quot;Error: Postal Code is required&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:04.6554019" startTime="2024-03-11T21:26:32.3345529+02:00" endTime="2024-03-11T21:26:36.9899547+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a2c6929-6c10-4ae5-aee9-a2bd7f41d536" />
+    <UnitTestResult executionId="bf1ae1b3-455d-4229-ba06-4ed72f577fa4" testId="c1dfbb84-ef29-dae9-abaa-c3af89bb5e46" testName="SimplyAddToCart" computerName="DESKTOP-8NPJ20A" duration="00:00:00.8248450" startTime="2024-03-11T21:26:33.5888676+02:00" endTime="2024-03-11T21:26:34.4137120+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf1ae1b3-455d-4229-ba06-4ed72f577fa4" />
+    <UnitTestResult executionId="5e570cc7-7b43-49c6-bd41-1558e36e3731" testId="91e7f1dd-f165-7336-ee20-360f859d808c" testName="LoginSuccessfully(&quot;visual_user&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:06.5701930" startTime="2024-03-11T21:25:34.3155843+02:00" endTime="2024-03-11T21:25:40.8857763+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e570cc7-7b43-49c6-bd41-1558e36e3731" />
+    <UnitTestResult executionId="cdb6d544-f8da-4bcc-86ec-c38f5dde1305" testId="ee6cd442-72ea-1d40-e0d0-a28bc16baa50" testName="CloseLoginErrorMessage" computerName="DESKTOP-8NPJ20A" duration="00:00:07.6198710" startTime="2024-03-11T21:25:06.6488737+02:00" endTime="2024-03-11T21:25:14.2685836+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdb6d544-f8da-4bcc-86ec-c38f5dde1305" />
+    <UnitTestResult executionId="2f8e7764-be19-447c-840f-3fdc3dfb0752" testId="3f42e647-d10e-b031-16b1-6b8de243cc6c" testName="LoginSuccessfully(&quot;performance_glitch_user&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:11.8689500" startTime="2024-03-11T21:25:40.8858935+02:00" endTime="2024-03-11T21:25:52.7548425+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f8e7764-be19-447c-840f-3fdc3dfb0752" />
+    <UnitTestResult executionId="0f1765fa-b113-4fd6-b972-bd98faa80653" testId="1e3a523f-936e-82ee-1191-e151f36064f8" testName="LoginUnsuccessfully(&quot;&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Username is required&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:03.7160850" startTime="2024-03-11T21:25:56.3026703+02:00" endTime="2024-03-11T21:26:00.0187544+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f1765fa-b113-4fd6-b972-bd98faa80653" />
+    <UnitTestResult executionId="1cbbd8b5-4e6c-4d71-a443-4538844fcab6" testId="10a47b50-6e5c-77cd-2739-4ab3924963c3" testName="FinishCheckoutSuccessfully" computerName="DESKTOP-8NPJ20A" duration="00:00:05.2100710" startTime="2024-03-11T21:26:27.1242701+02:00" endTime="2024-03-11T21:26:32.3343408+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cbbd8b5-4e6c-4d71-a443-4538844fcab6" />
+    <UnitTestResult executionId="1a44abb2-2e45-4dba-babb-6cb81067af4b" testId="6e8767cb-c493-45b8-3688-e91871e80b5f" testName="VerifyCartNumber" computerName="DESKTOP-8NPJ20A" duration="00:00:00.8732140" startTime="2024-03-11T21:26:34.4137805+02:00" endTime="2024-03-11T21:26:35.2869937+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a44abb2-2e45-4dba-babb-6cb81067af4b" />
+    <UnitTestResult executionId="74235a29-616f-4040-897f-23b67bef8ca0" testId="ef5f277d-18cd-5369-d44e-294f950ccd2e" testName="LeaveEmptyFieldsAndVerifyError(&quot;&quot;,&quot;White&quot;,&quot;12345&quot;,&quot;Error: First Name is required&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:04.4524730" startTime="2024-03-11T21:26:36.9900059+02:00" endTime="2024-03-11T21:26:41.4424785+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74235a29-616f-4040-897f-23b67bef8ca0" />
+    <UnitTestResult executionId="7beb0790-109a-4d5d-b3c3-8e0bb83b7c0f" testId="d698af29-9916-6933-3702-972ca1154144" testName="LoginSuccessfully(&quot;problem_user&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:06.6696200" startTime="2024-03-11T21:25:21.1431683+02:00" endTime="2024-03-11T21:25:27.8127868+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7beb0790-109a-4d5d-b3c3-8e0bb83b7c0f" />
+    <UnitTestResult executionId="58c0bf9f-1556-4f4e-9605-2595bb614e7a" testId="e7770781-98e4-419f-0ce1-e635c2536156" testName="LoginUnsuccessfully(&quot;standard_user&quot;,&quot;&quot;,&quot;Epic sadface: Password is required&quot;)" computerName="DESKTOP-8NPJ20A" duration="00:00:03.1931080" startTime="2024-03-11T21:26:00.0189717+02:00" endTime="2024-03-11T21:26:03.2120789+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58c0bf9f-1556-4f4e-9605-2595bb614e7a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LoginSuccessfully(&quot;visual_user&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="91e7f1dd-f165-7336-ee20-360f859d808c">
+      <Execution id="5e570cc7-7b43-49c6-bd41-1558e36e3731" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginSuccessfully(&quot;visual_user&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginUnsuccessfully(&quot;unexisting_user&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Username and password do not match any user in this service&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="4b8997a3-421c-9a4c-d16d-34067e79b368">
+      <Execution id="e6d8e9b1-6e75-40d2-9a32-05166b81b652" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginUnsuccessfully(&quot;unexisting_user&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Username and password do not match any user in this service&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginSuccessfully(&quot;problem_user&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="d698af29-9916-6933-3702-972ca1154144">
+      <Execution id="7beb0790-109a-4d5d-b3c3-8e0bb83b7c0f" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginSuccessfully(&quot;problem_user&quot;)" />
+    </UnitTest>
+    <UnitTest name="RemoveMultipeItemsMainPage" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="3d5bbc93-35c6-ef3d-43dc-0a8543aba260">
+      <Execution id="945c8af8-20db-4f4f-8c09-918ae43a6e0f" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.AddingItemsTests" name="RemoveMultipeItemsMainPage" />
+    </UnitTest>
+    <UnitTest name="LeaveEmptyFieldsAndVerifyError(&quot;Walter&quot;,&quot;White&quot;,&quot;&quot;,&quot;Error: Postal Code is required&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="429808e9-566c-b910-9fc3-b57407d15a54">
+      <Execution id="9a2c6929-6c10-4ae5-aee9-a2bd7f41d536" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.CheckoutTests" name="LeaveEmptyFieldsAndVerifyError(&quot;Walter&quot;,&quot;White&quot;,&quot;&quot;,&quot;Error: Postal Code is required&quot;)" />
+    </UnitTest>
+    <UnitTest name="LeaveEmptyFieldsAndVerifyError(&quot;&quot;,&quot;White&quot;,&quot;12345&quot;,&quot;Error: First Name is required&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="ef5f277d-18cd-5369-d44e-294f950ccd2e">
+      <Execution id="74235a29-616f-4040-897f-23b67bef8ca0" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.CheckoutTests" name="LeaveEmptyFieldsAndVerifyError(&quot;&quot;,&quot;White&quot;,&quot;12345&quot;,&quot;Error: First Name is required&quot;)" />
+    </UnitTest>
+    <UnitTest name="LeaveEmptyFieldsAndVerifyError(&quot;Walter&quot;,&quot;&quot;,&quot;12345&quot;,&quot;Error: Last Name is required&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="21c945b7-bb77-a218-327c-38c0495ecde8">
+      <Execution id="e13cf84f-1119-4a51-a67e-ee5ea4cc7dd5" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.CheckoutTests" name="LeaveEmptyFieldsAndVerifyError(&quot;Walter&quot;,&quot;&quot;,&quot;12345&quot;,&quot;Error: Last Name is required&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginSuccessfully(&quot;performance_glitch_user&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="3f42e647-d10e-b031-16b1-6b8de243cc6c">
+      <Execution id="2f8e7764-be19-447c-840f-3fdc3dfb0752" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginSuccessfully(&quot;performance_glitch_user&quot;)" />
+    </UnitTest>
+    <UnitTest name="ContinueShopping" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="397619a7-2f0f-549b-d580-e2d507be922d">
+      <Execution id="12ef0b7d-eabf-423a-9274-200fef9b37c8" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.AddingItemsTests" name="ContinueShopping" />
+    </UnitTest>
+    <UnitTest name="FinishCheckoutSuccessfully" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="10a47b50-6e5c-77cd-2739-4ab3924963c3">
+      <Execution id="1cbbd8b5-4e6c-4d71-a443-4538844fcab6" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.CheckoutTests" name="FinishCheckoutSuccessfully" />
+    </UnitTest>
+    <UnitTest name="LoginUnsuccessfully(&quot;locked_out_user&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Sorry, this user has been locked out.&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="1cbad24b-34b0-7bfe-77b5-b73d55095afd">
+      <Execution id="c7c27810-2806-403e-8e9a-915e5587c5aa" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginUnsuccessfully(&quot;locked_out_user&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Sorry, this user has been locked out.&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginSuccessfully(&quot;standard_user&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="3fc5535b-de56-6dd8-a130-c6b4e1e29551">
+      <Execution id="e0dc1e68-2bbd-4a7f-89c7-99059f16f65b" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginSuccessfully(&quot;standard_user&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginUnsuccessfully(&quot;&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Username is required&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="1e3a523f-936e-82ee-1191-e151f36064f8">
+      <Execution id="0f1765fa-b113-4fd6-b972-bd98faa80653" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginUnsuccessfully(&quot;&quot;,&quot;secret_sauce&quot;,&quot;Epic sadface: Username is required&quot;)" />
+    </UnitTest>
+    <UnitTest name="RemoveItemsFromCart" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="e52df099-5ca5-0bdb-aa94-502735479efb">
+      <Execution id="13bd7ea8-66bf-4193-a5a1-443cad0ab4b2" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.AddingItemsTests" name="RemoveItemsFromCart" />
+    </UnitTest>
+    <UnitTest name="CloseLoginErrorMessage" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="ee6cd442-72ea-1d40-e0d0-a28bc16baa50">
+      <Execution id="cdb6d544-f8da-4bcc-86ec-c38f5dde1305" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="CloseLoginErrorMessage" />
+    </UnitTest>
+    <UnitTest name="SimplyAddToCart" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="c1dfbb84-ef29-dae9-abaa-c3af89bb5e46">
+      <Execution id="bf1ae1b3-455d-4229-ba06-4ed72f577fa4" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.AddingItemsTests" name="SimplyAddToCart" />
+    </UnitTest>
+    <UnitTest name="LoginSuccessfully(&quot;error_user&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="efb19887-118f-1388-07df-47ad278ca687">
+      <Execution id="3d87d5e5-6fe5-4e39-a144-7343cc1a37e8" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginSuccessfully(&quot;error_user&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddMultipleItems" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="49459291-6903-b197-6cf1-d0b346f6372f">
+      <Execution id="c365e4ee-875a-4f6b-9802-83dc1b0588f5" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.AddingItemsTests" name="AddMultipleItems" />
+    </UnitTest>
+    <UnitTest name="LoginUnsuccessfully(&quot;standard_user&quot;,&quot;&quot;,&quot;Epic sadface: Password is required&quot;)" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="e7770781-98e4-419f-0ce1-e635c2536156">
+      <Execution id="58c0bf9f-1556-4f4e-9605-2595bb614e7a" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="LoginUnsuccessfully(&quot;standard_user&quot;,&quot;&quot;,&quot;Epic sadface: Password is required&quot;)" />
+    </UnitTest>
+    <UnitTest name="VerifyCartNumber" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="6e8767cb-c493-45b8-3688-e91871e80b5f">
+      <Execution id="1a44abb2-2e45-4dba-babb-6cb81067af4b" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.AddingItemsTests" name="VerifyCartNumber" />
+    </UnitTest>
+    <UnitTest name="Logout" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="2ee63ba8-a06e-b946-780a-eba7bb4a356c">
+      <Execution id="47814d13-b8be-4b6b-a161-7b419cfcbebe" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.LoginTests" name="Logout" />
+    </UnitTest>
+    <UnitTest name="CancelCheckoutAndVerifyPage" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="229eb894-1fd2-cf91-35d6-57460b1286b7">
+      <Execution id="acf83946-e237-48b9-9c3e-a70a9d9fec7c" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.CheckoutTests" name="CancelCheckoutAndVerifyPage" />
+    </UnitTest>
+    <UnitTest name="CheckIfTotalPriceIsCorrect" storage="c:\users\milos\source\repos\demopagetesting\demopagetesting\bin\release\net7.0-windows\demopagetesting.dll" id="d06a632a-7457-3705-0221-f4d72a94fbad">
+      <Execution id="2194b687-442c-4e69-85e2-6b5b5643b4c9" />
+      <TestMethod codeBase="C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="DemoPageTesting.Tests.CheckoutTests" name="CheckIfTotalPriceIsCorrect" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3fc5535b-de56-6dd8-a130-c6b4e1e29551" executionId="e0dc1e68-2bbd-4a7f-89c7-99059f16f65b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d5bbc93-35c6-ef3d-43dc-0a8543aba260" executionId="945c8af8-20db-4f4f-8c09-918ae43a6e0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efb19887-118f-1388-07df-47ad278ca687" executionId="3d87d5e5-6fe5-4e39-a144-7343cc1a37e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21c945b7-bb77-a218-327c-38c0495ecde8" executionId="e13cf84f-1119-4a51-a67e-ee5ea4cc7dd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49459291-6903-b197-6cf1-d0b346f6372f" executionId="c365e4ee-875a-4f6b-9802-83dc1b0588f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ee63ba8-a06e-b946-780a-eba7bb4a356c" executionId="47814d13-b8be-4b6b-a161-7b419cfcbebe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cbad24b-34b0-7bfe-77b5-b73d55095afd" executionId="c7c27810-2806-403e-8e9a-915e5587c5aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="229eb894-1fd2-cf91-35d6-57460b1286b7" executionId="acf83946-e237-48b9-9c3e-a70a9d9fec7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d06a632a-7457-3705-0221-f4d72a94fbad" executionId="2194b687-442c-4e69-85e2-6b5b5643b4c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="397619a7-2f0f-549b-d580-e2d507be922d" executionId="12ef0b7d-eabf-423a-9274-200fef9b37c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b8997a3-421c-9a4c-d16d-34067e79b368" executionId="e6d8e9b1-6e75-40d2-9a32-05166b81b652" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e52df099-5ca5-0bdb-aa94-502735479efb" executionId="13bd7ea8-66bf-4193-a5a1-443cad0ab4b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="429808e9-566c-b910-9fc3-b57407d15a54" executionId="9a2c6929-6c10-4ae5-aee9-a2bd7f41d536" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1dfbb84-ef29-dae9-abaa-c3af89bb5e46" executionId="bf1ae1b3-455d-4229-ba06-4ed72f577fa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91e7f1dd-f165-7336-ee20-360f859d808c" executionId="5e570cc7-7b43-49c6-bd41-1558e36e3731" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee6cd442-72ea-1d40-e0d0-a28bc16baa50" executionId="cdb6d544-f8da-4bcc-86ec-c38f5dde1305" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f42e647-d10e-b031-16b1-6b8de243cc6c" executionId="2f8e7764-be19-447c-840f-3fdc3dfb0752" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e3a523f-936e-82ee-1191-e151f36064f8" executionId="0f1765fa-b113-4fd6-b972-bd98faa80653" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10a47b50-6e5c-77cd-2739-4ab3924963c3" executionId="1cbbd8b5-4e6c-4d71-a443-4538844fcab6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e8767cb-c493-45b8-3688-e91871e80b5f" executionId="1a44abb2-2e45-4dba-babb-6cb81067af4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef5f277d-18cd-5369-d44e-294f950ccd2e" executionId="74235a29-616f-4040-897f-23b67bef8ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d698af29-9916-6933-3702-972ca1154144" executionId="7beb0790-109a-4d5d-b3c3-8e0bb83b7c0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7770781-98e4-419f-0ce1-e635c2536156" executionId="58c0bf9f-1556-4f4e-9605-2595bb614e7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="23" executed="23" passed="23" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in C:\Users\milos\source\repos\DemoPageTesting\DemoPageTesting\bin\Release\net7.0-windows\DemoPageTesting.dll&#xD;
+   NUnit3TestExecutor discovered 23 of 23 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
