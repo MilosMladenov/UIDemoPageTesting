@@ -26,13 +26,13 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 
       - name: Run Selenium Tests
-        run: dotnet test --configuration Release --logger "trx;LogFileName=test-results.trx"
+        run: dotnet test --configuration Release --logger "html;LogFileName=test-results.html"
       
       - name: Upload Test Results
         uses: actions/upload-artifact@v2
         with:
           name: Test Results
-          path: "**/test-results.trx"
+          path: "**/test-results.html"
 
       # - name: Deploy
       #   uses: JamesIves/github-pages-deploy-action@v4
