@@ -21,7 +21,9 @@ public class LoginTests
     [SetUp]
     public void Setup()
     {
-        driver = new ChromeDriver();
+        var chromeOptions = new ChromeOptions();
+        chromeOptions.AddArgument("--headless");
+        driver = new ChromeDriver(chromeOptions);
         driver.Navigate().GoToUrl(SITE_URL);
         driver.Manage().Window.Maximize();
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
