@@ -1,0 +1,42 @@
+name: Selenium Tests
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '7.0'
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Build Project
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run Selenium Tests
+        run: dotnet test --configuration Release --logger "trx;LogFileName=test-results.trx"
+      
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: Test Results
+          path: "**/test-results.trx"
+
+      # - name: Deploy
+      #   uses: JamesIves/github-pages-deploy-action@v4
+      #   with:
+      #     folder: DemoPageTesting
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
