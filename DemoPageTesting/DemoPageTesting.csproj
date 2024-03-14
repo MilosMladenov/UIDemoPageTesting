@@ -20,8 +20,8 @@
 
   <ItemGroup>
     <None Update="allureConfig.json">
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	</None>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
