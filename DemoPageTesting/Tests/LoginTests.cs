@@ -9,7 +9,7 @@ using OpenQA.Selenium.Chrome;
 
 [TestFixture, Parallelizable(ParallelScope.Fixtures)]
 [AllureNUnit]
-[AllureFeature("Login")]
+[AllureFeature("Auth")]
 public class LoginTests
 {
     private IWebDriver driver;
