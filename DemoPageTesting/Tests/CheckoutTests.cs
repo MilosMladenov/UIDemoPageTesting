@@ -2,10 +2,14 @@
 using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 
 namespace DemoPageTesting.Tests
 {
     [TestFixture, Parallelizable(ParallelScope.Fixtures)]
+    [AllureNUnit]
+    [AllureFeature("Checkout")]
     public class CheckoutTests
     {
         private IWebDriver driver;

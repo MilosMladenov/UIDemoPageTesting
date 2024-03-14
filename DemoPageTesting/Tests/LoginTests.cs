@@ -1,11 +1,15 @@
 ﻿namespace DemoPageTesting.Tests;
 
 using DemoPageTesting.Pages;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-[TestFixture]
+[TestFixture, Parallelizable(ParallelScope.Fixtures)]
+[AllureNUnit]
+[AllureFeature("Login")]
 public class LoginTests
 {
     private IWebDriver driver;
